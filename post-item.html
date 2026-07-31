@@ -1,0 +1,45 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0
+            <title>FUADSI Marketplace - Post an Item</title>
+        </head>
+        <body>
+            <h1>FUADSI Marketplace</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="post-item.html">Post an Item</a>
+            </nav>
+
+            <hr>
+            <h2>Post an Item for Sale</h2>
+            <p>Fill in the details of the item you want to sell.</p>
+            <form>
+                <label>Product Name:</label><br>
+                <input type="text" name="product-name" required><br><br>
+
+                <label>Product Description:</label><br>
+                <textarea placeholder='Describe your product...' name="product-description" required></textarea><br><br>
+
+                <label>Price:</label><br>
+                <input type="number" name="price" step="0.01" required><br><br>
+
+                <label>Category:</label><br>
+                <select name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="food">Food</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="books">Books</option>
+                    <option value="gadgets">Gadgets</option>
+                </select><br><br>
+
+                <label>Product Picture</label><br>
+                <input type="file"><br><br>
+
+                <button type="submit">Post Item</button>
+            </form>
+        </body>
+    </html>
+</DOCTYPE>
